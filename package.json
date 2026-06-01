@@ -1,0 +1,37 @@
+{
+  "name": "vigia-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "https://azuajece.github.io/vigia",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0",
+    "axios": "^1.7.0",
+    "@tanstack/react-table": "^8.20.0",
+    "@tanstack/match-sorter-utils": "^8.19.4",
+    "lucide-react": "^0.408.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0",
+    "typescript": "^5.6.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "@types/node": "^20.14.0",
+    "gh-pages": "^6.1.0"
+  }
+}

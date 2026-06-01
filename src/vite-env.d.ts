@@ -1,12 +1,11 @@
-/* eslint-disable */
+/// <reference types="vite/client" />
 
-/**
- * Auto-generated path aliases for TypeScript
- * Run 'npm run generate:paths' to update
- */
+interface ImportMetaEnv {
+  readonly VITE_API_URL: string
+}
 
-declare module '@/*' {
-  export * from '../../src/*'
+interface ImportMeta {
+  readonly env: ImportMetaEnv
 }
 
 declare module '@components/*' {

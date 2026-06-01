@@ -5,7 +5,7 @@ import { FormComponent, FormField } from '@components/Form'
 import { ingresosAPI } from '@services/api'
 import { Ingreso } from '../types'
 
-const months = [
+/*const months = [
   { label: 'Enero', value: 1 },
   { label: 'Febrero', value: 2 },
   { label: 'Marzo', value: 3 },
@@ -18,7 +18,7 @@ const months = [
   { label: 'Octubre', value: 10 },
   { label: 'Noviembre', value: 11 },
   { label: 'Diciembre', value: 12 },
-]
+]*/
 
 const IngresosPage = () => {
   const [data, setData] = useState<Ingreso[]>([])
